@@ -320,8 +320,8 @@ footer {
   }
 }
 
-/* For screens smaller than 415px */
-@media screen and (max-width: 415px) {
+/* For screens smaller than 420px */
+@media screen and (max-width: 420px) {
   #general{
     display: none;
   }
