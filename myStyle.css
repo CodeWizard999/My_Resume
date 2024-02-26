@@ -255,6 +255,12 @@ footer {
   margin-right: 5px;
 }
 
+/* Adjust the max-width and height of certification images */
+#certifications img {
+  max-width: 60%;
+  height: auto;
+}
+
 /* Container for project cards */
 .card-container {
   display: flex;
@@ -320,8 +326,8 @@ footer {
   }
 }
 
-/* For screens smaller than 400px */
-@media screen and (max-width: 400px) {
+/* For screens smaller than 420px */
+@media screen and (max-width: 420px) {
   #general{
     display: none;
   }
