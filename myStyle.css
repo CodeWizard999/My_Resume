@@ -31,11 +31,7 @@
   margin-bottom: 2px;
 }
 
-/* Adjust the max-width and height of certification images */
-#certifications img {
-  max-width: 60%;
-  height: auto;
-}
+
 
 /* Global Styles */
 body {
