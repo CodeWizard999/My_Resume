@@ -257,8 +257,8 @@ footer {
 
 /* Adjust the max-width and height of certification images */
 #certifications img {
-  max-width: 60%;
-  height: auto;
+  max-width: 200px;
+  height: 100px;
 }
 
 /* Container for project cards */
