@@ -31,6 +31,8 @@
   margin-bottom: 2px;
 }
 
+
+
 /* Global Styles */
 body {
   font-family: 'Helvetica Neue', sans-serif;
@@ -255,11 +257,6 @@ footer {
   margin-right: 5px;
 }
 
-/* Adjust the max-width and height of certification images */
-#certifications img {
-  max-width: 60%;
-  height: auto;
-}
 
 /* Container for project cards */
 .card-container {
