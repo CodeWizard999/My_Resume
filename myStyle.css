@@ -448,3 +448,40 @@ footer {
    
 }
 
+/* General fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fade-in animation to sections */
+section {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+/* Add hover effect for links */
+a {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: #0073e6; /* Change to your preferred hover color */
+  transform: scale(1.1);
+}
+
+/* Add animation to images */
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
