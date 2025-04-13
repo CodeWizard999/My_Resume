@@ -465,7 +465,6 @@ section {
   animation: fadeIn 1s ease-in-out;
 }
 
-
 /* Add hover effect for links */
 a {
   transition: color 0.3s ease, transform 0.3s ease;
@@ -484,4 +483,20 @@ img {
 img:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add animation to the navigation */
+nav {
+  animation: slideInFromTop 1s ease-in-out;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
